@@ -1,0 +1,108 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "centralus"
+        },
+        "networkInterfaceName1": {
+            "value": "az104-vm1498_z1"
+        },
+        "networkInterfaceName2": {
+            "value": "az104-vm1938_z2"
+        },
+        "networkSecurityGroupName": {
+            "value": "az104-vm1-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": []
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "virtualNetworkName": {
+            "value": "az104-lab8-vnet"
+        },
+        "addressPrefixes": {
+            "value": [
+                "10.0.0.0/16"
+            ]
+        },
+        "subnets": {
+            "value": [
+                {
+                    "name": "default",
+                    "properties": {
+                        "addressPrefix": "10.0.0.0/24"
+                    }
+                }
+            ]
+        },
+        "publicIpAddressName1": {
+            "value": "az104-vm1-pip"
+        },
+        "publicIpAddressType": {
+            "value": "Static"
+        },
+        "publicIpAddressSku": {
+            "value": "Standard"
+        },
+        "pipDeleteOption": {
+            "value": "Detach"
+        },
+        "virtualMachineName": {
+            "value": "az104-vm1"
+        },
+        "virtualMachineName1": {
+            "value": "az104-vm1"
+        },
+        "virtualMachineComputerName1": {
+            "value": "az104-vm1"
+        },
+        "virtualMachineRG": {
+            "value": "az104-rg8"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "osDiskDeleteOption": {
+            "value": "Delete"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1s"
+        },
+        "nicDeleteOption": {
+            "value": "Detach"
+        },
+        "hibernationEnabled": {
+            "value": false
+        },
+        "adminUsername": {
+            "value": "localadmin"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "patchMode": {
+            "value": "AutomaticByPlatform"
+        },
+        "enableHotpatching": {
+            "value": false
+        },
+        "rebootSetting": {
+            "value": "IfRequired"
+        },
+        "virtualMachineName2": {
+            "value": "az104vm-2"
+        },
+        "virtualMachineComputerName2": {
+            "value": "az104vm-2"
+        },
+        "virtualMachine1Zone": {
+            "value": "1"
+        },
+        "virtualMachine2Zone": {
+            "value": "2"
+        }
+    }
+}
